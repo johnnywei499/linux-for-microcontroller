@@ -1,7 +1,7 @@
 # project description
 This is a linux-3.12.74 project that can run on an STM32F407 with only 1MB of memory. It also provides a complete description of the software and hardware environment required to run this project.
 
-The source code will be uploaded later.***
+***The source code will be uploaded later.***
 
 For more information, please contact email johnnywei499@gmail.com
 
