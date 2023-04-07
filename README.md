@@ -52,8 +52,31 @@ SecureCRT
 ## 4、Hardware connection
 
 + burning the serial port：USART1 (PA9/PA10) --> usb port
-
 + console the serial port：USART2 (PA2/PA3)   --> debug serial
+
+
+
+# How to compile this project
+
+## 1、Compile u-boot
+
+``./tools/build.sh -s boot_config``
+
+``./tools/build.sh -s boot``
+
+
+
+## 2、Compile linux
+
+``./tools/build.sh -s kernel_config``
+
+``./tools/build.sh -s kernel``
+
+
+
+## 3、Compile rootfs
+
+``./tools/build.sh -s rootfs``
 
 
 
