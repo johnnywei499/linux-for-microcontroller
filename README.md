@@ -37,8 +37,8 @@ The reason for choosing the STM32F407 microcontroller is that it belongs to the 
 
 **Statement: I have no affiliation with the merchant. I simply purchased their development board on Taobao, and I will provide a link for reference.**
 
-https://m.tb.cn/h.UHMEGVo?tk=HSTzdkCMn15
-
+【淘宝】https://m.tb.cn/h.UIACPhs?tk=07kkdkzmXYw CZ3457 「正点原子STM32F407ZGT6小系统板 核心板ARM开发板STM32F4单片机」
+点击链接直接打开 或者 淘宝搜索直接打开
 
 
 ## 3、serial terminal tool
