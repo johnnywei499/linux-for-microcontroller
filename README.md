@@ -202,4 +202,18 @@ BusyBox v1.10.0 (2023-04-05 07:01:17 PDT) built-in shell (msh)
 Enter 'help' for a list of built-in commands.
 
 # 
+# cat /proc/cpuinfo 
+processor       : 0
+model name      : ARMv7-M rev 1 (v7ml)
+BogoMIPS        : 111.51
+Features        : half thumb fastmult idivt 
+CPU implementer : 0x41
+CPU architecture: 7M
+CPU variant     : 0x0
+CPU part        : 0xc24
+CPU revision    : 1
+
+Hardware        : cortex_m4 (Device Tree Support)
+Revision        : 0000
+Serial          : 0000000000000000
 ```
