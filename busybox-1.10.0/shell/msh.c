@@ -245,8 +245,12 @@ static const char *const T_CMD_NAMES[] = {
 };
 #endif
 
+/* add by wzl */
+#if 0
 #define AREASIZE (90000)
-
+#else
+#define AREASIZE (8000)
+#endif
 /*
  * flags to control evaluation of words
  */

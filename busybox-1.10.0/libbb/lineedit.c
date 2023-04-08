@@ -122,8 +122,12 @@ struct statics {
 
 /* Make it reside in writable memory, yet make compiler understand
  * that it is not going to change. */
+/* add by wzl */
+#if 0
 static struct statics *const ptr_to_statics __attribute__ ((section (".data")));
-
+#else
+static struct statics *ptr_to_statics __attribute__ ((section (".data")));
+#endif
 #define S (*ptr_to_statics)
 #define state            (S.state           )
 #define cmdedit_termw    (S.cmdedit_termw   )

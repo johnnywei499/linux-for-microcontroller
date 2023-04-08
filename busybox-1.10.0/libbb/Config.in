@@ -49,7 +49,7 @@ config FEATURE_EDITING
 
 config FEATURE_EDITING_MAX_LEN
 	int "Maximum length of input"
-	range 128 8192
+	range 64 8192
 	default 1024
 	depends on FEATURE_EDITING
 	help

@@ -31,10 +31,12 @@
 #include <sys/utsname.h>
 #undef TRUE
 #undef FALSE
+/* add by wzl */
+#if 0
 #include <rpc/rpc.h>
 #include <rpc/pmap_prot.h>
 #include <rpc/pmap_clnt.h>
-
+#endif
 #ifndef MS_SILENT
 #define MS_SILENT	(1 << 15)
 #endif
