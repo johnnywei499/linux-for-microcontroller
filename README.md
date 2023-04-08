@@ -23,13 +23,13 @@ The reason for choosing the STM32F407 microcontroller is that it belongs to the 
 
 ## 1、SOC
 
-+ cpu：	    stm32f407zgt6
-+ ram：       128KB
-+ rom：       1MB
-+ sdram：   1MB
-+ spi flash：16MB
-
-
+| Component | Specification |
+| :-: | :-: |
+| CPU | stm32f407zgt6 |
+| RAM | 128KB |
+| ROM | 1MB |
+| SDRAM | 1MB |
+| SPI Flash | 16MB |
 
 ## 2、board
 
