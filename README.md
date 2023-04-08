@@ -88,7 +88,7 @@ SecureCRT
 + burning tool：pctool/FlyMcu.exe
 + burning cmd：none
 
-![](https://github.com/johnnywei499/microcontroller/blob/main/doc/u-boot%20burning.png)
+![](https://github.com/johnnywei499/linux-for-microcontroller/blob/main/doc/u-boot%20burning.png)
 
 
 
