@@ -60,23 +60,23 @@ SecureCRT
 
 ## 1、Compile u-boot
 
-``./tools/build.sh -s boot_config``
+``make boot_config``
 
-``./tools/build.sh -s boot``
+``make boot``
 
 
 
 ## 2、Compile linux
 
-``./tools/build.sh -s kernel_config``
+``make kernel_config``
 
-``./tools/build.sh -s kernel``
+``make kernel``
 
 
 
 ## 3、Compile rootfs
 
-``./tools/build.sh -s rootfs``
+``make rootfs``
 
 
 
