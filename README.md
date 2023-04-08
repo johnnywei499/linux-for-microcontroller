@@ -33,7 +33,7 @@ The reason for choosing the STM32F407 microcontroller is that it belongs to the 
 
 ## 2、board
 
-![](https://github.com/johnnywei499/linux-for-mcu/blob/main/doc/board.png)
+![](https://github.com/johnnywei499/linux-for-microcontroller/blob/main/doc/board.png)
 
 **Statement: I have no affiliation with the merchant. I simply purchased their development board on Taobao, and I will provide a link for reference.**
 
@@ -88,7 +88,7 @@ SecureCRT
 + burning tool：pctool/FlyMcu.exe
 + burning cmd：none
 
-![](https://github.com/johnnywei499/linux-for-mcu/blob/main/doc/u-boot%20burning.png)
+![](https://github.com/johnnywei499/microcontroller/blob/main/doc/u-boot%20burning.png)
 
 
 
@@ -106,11 +106,11 @@ SecureCRT
 
 You can check the instructions for using ymodem in SecureCRT
 
-![](https://github.com/johnnywei499/linux-for-mcu/blob/main/doc/image%20burning0.png)
+![](https://github.com/johnnywei499/linux-for-microcontroller/blob/main/doc/image%20burning0.png)
 
-![](https://github.com/johnnywei499/linux-for-mcu/blob/main/doc/image%20burning1.png)
+![](https://github.com/johnnywei499/linux-for-microcontroller/blob/main/doc/image%20burning1.png)
 
-![](https://github.com/johnnywei499/linux-for-mcu/blob/main/doc/image%20burning2.png)
+![](https://github.com/johnnywei499/linux-for-microcontroller/blob/main/doc/image%20burning2.png)
 
 
 
