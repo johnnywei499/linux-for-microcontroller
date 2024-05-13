@@ -874,6 +874,24 @@ config ARCH_OMAP1
 	help
 	  Support for older TI OMAP1 (omap7xx, omap15xx or omap16xx)
 
+config ARCH_CORTEX_M4
+	bool "cortex m4"
+	depends on !MMU
+	select ARM_NVIC
+	select AUTO_ZRELADDR
+	select TIMER_OF
+	select COMMON_CLK
+	select CPU_V7M
+	select NO_IOPORT_MAP
+	select SPARSE_IRQ
+	select USE_OF
+	select CLKSRC_OF
+	select GENERIC_CLOCKEVENTS
+	select CLKSRC_MMIO
+	select ARCH_REQUIRE_GPIOLIB
+	help
+	  Support for cortex m4 processors.
+
 endchoice
 
 menu "Multiple platform selection"

@@ -1,0 +1,23 @@
+menuconfig SET_DATA_BSS_DTB_PARAM
+	bool "Set data/bss base addr"
+	default y
+
+config DATA_IN_SDRAM
+	bool "data section on sdram"
+	depends on SET_DATA_BSS_DTB_PARAM
+	default n
+
+config BSS_IN_SDRAM
+	bool "bss section on sdram"
+	depends on SET_DATA_BSS_DTB_PARAM
+	default n
+
+config DTB_IN_SDRAM
+	bool "dtb on sdram"
+	depends on SET_DATA_BSS_DTB_PARAM
+	default n
+
+config FREE_INITMEM
+	bool "free init mem"
+	depends on SET_DATA_BSS_DTB_PARAM
+	default y
