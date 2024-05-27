@@ -219,4 +219,4 @@ Serial          : 0000000000000000
 ```
 
 可以添加微信交流群
-![](https://github.com/johnnywei499/linux-for-microcontroller/blob/main/doc/wechat.jpg)
+![](https://github.com/johnnywei499/linux-for-microcontroller/blob/main/doc/wechat.png)
