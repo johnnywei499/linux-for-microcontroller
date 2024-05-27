@@ -217,3 +217,6 @@ Hardware        : cortex_m4 (Device Tree Support)
 Revision        : 0000
 Serial          : 0000000000000000
 ```
+
+可以添加微信交流群
+![](https://github.com/johnnywei499/linux-for-microcontroller/blob/main/doc/wechat.jpg)
